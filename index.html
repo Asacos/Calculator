@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calc</title>
+  <link href="color.css" rel="stylesheet" type="text/css" />
+  <link href="form.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <script src="color.js"></script>
+</head>
+
+<body>
+  <div id="lay">
+    <div id="vis">
+
+    </div>
+    <div id="cont">
+      <table id="gr">
+        <tr>
+          <td>
+            <div class="but num" onclick="clicked(7)">7</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(8)">8</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(9)">9</div>
+          </td>
+          <td>
+            <div class="but op" onclick="clicked('+')">+</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="but num" onclick="clicked(4)">4</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(5)">5</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(6)">6</div>
+          </td>
+          <td>
+            <div class="but op" onclick="clicked('-')">-</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="but num" onclick="clicked(1)">1</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(2)">2</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(3)">3</div>
+          </td>
+          <td>
+            <div class="but op" onclick="clicked('*')">*</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="but ot" onclick="clicked('c')">C</div>
+          </td>
+          <td>
+            <div class="but num" onclick="clicked(0)">0</div>
+          </td>
+          <td>
+            <div class="but ot" onclick="clicked('=')">=</div>
+          </td>
+          <td>
+            <div class="but op" onclick="clicked('/')">/</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+:root {
+  --bgColor: rgb(16, 16, 16);
+  --bgContL: rgb(38, 38, 48);
+  --bgContD: rgb(33, 33, 42);
+  --bgPas: rgb(215, 235, 235);
+  --bgAct: rgb(254, 160, 79);
+}
+
+body {
+  background-color: var(--bgColor);
+}
+
+#lay {
+  background-color: var(--bgContD);
+  
+}
+
+#vis {
+  background-color: var(--bgContL);
+  
+}
+
+.num {
+  background-color: var(--bgPas);
+  color: var(--bgContL);
+}
+
+.op, .num:hover, .ot:hover{
+  background-color: var(--bgAct);
+  color: var(--bgPas);
+}
+
+.ot, .op:hover{
+  background-color: var(--bgPas);
+  color: var(--bgAct);
+}
+
+p {
+  color:var(--bgPas);
+}
